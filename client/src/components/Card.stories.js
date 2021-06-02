@@ -16,5 +16,6 @@ Default.args = {
 export const longAuthor = Template.bind({})
 longAuthor.args = {
   text: 'What does mongo mean',
-  author: 'Hans Otto Heinrich van Blau',
+  author:
+    'Hans Otto Heinrich van BlauuuuuuuuuuuHans Otto Heinrich van BlauuuuuuuuuuuHans Otto Heinrich van Blauuuuuuuuuuu',
 }
