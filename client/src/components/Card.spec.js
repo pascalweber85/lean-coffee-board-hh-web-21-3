@@ -2,8 +2,9 @@ import { render, screen } from '@testing-library/react'
 import Card from './Card'
 
 describe('Card', () => {
-  it('renders its children', () => {
-    render(<Card>Hello world</Card>)
-    expect(screen.getByText('Hello world')).toBeInTheDocument()
+  it('renders text and author', () => {
+    render(<Card text="this is text" author="John Doe" />)
+    expect(screen.getByText('this is text')).toBeInTheDocument()
+    expect(screen.getByText('John Doe')).toBeInTheDocument()
   })
 })
