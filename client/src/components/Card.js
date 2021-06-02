@@ -10,7 +10,7 @@ export default function Card({ children }) {
 }
 
 const Wrapper = styled.section`
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 8px 16px #0006;
 `
