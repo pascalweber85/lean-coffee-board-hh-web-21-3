@@ -1,21 +1,20 @@
 import styled from 'styled-components/macro'
+import Button from './Button'
 
 export default function CreateCard() {
   return (
     <Wrapper>
-      <button>&lt; back</button>
+      <Button>&lt; back</Button>
       <form>
         <label>
-          Text:
-          <textarea rows="3" cols="33" />
+          Text
+          <input type="textarea"></input>
         </label>
-
         <label>
-          Author:
-          <input type="textarea" />
+          Author
+          <input type="text"></input>
         </label>
-
-        <button>Create Card</button>
+        <Button>Create card</Button>
       </form>
     </Wrapper>
   )

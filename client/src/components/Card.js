@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 
 Card.propTypes = {
-  text: PropTypes.string,
+  question: PropTypes.string,
   author: PropTypes.string,
 }
 
@@ -25,9 +25,9 @@ const Wrapper = styled.section`
 
   span {
     justify-self: end;
-    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     max-width: 15ch;
+    text-overflow: ellipsis;
   }
 `
